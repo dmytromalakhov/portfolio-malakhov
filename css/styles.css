@@ -554,7 +554,8 @@ a.btn-cta {
 }
 .features-section .thumbnail {
   width: 100%;
-  min-height: 200px;
+  min-height: 350px;
+  margin-bottom: 40px;
   padding-bottom: 40px;
   transition: all .2s ease;
 }
