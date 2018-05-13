@@ -846,13 +846,6 @@ a.btn-cta {
   margin-bottom: 60px;
 }
 
-/* ======= Modal ======= */
-.modal-body label{
-  display: none;
-}
-
-
-
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .navbar-collapse {
@@ -935,6 +928,54 @@ a.btn-cta {
   .team-section .item-inner {
     min-height: inherit;
   }
+  #contact .btn.btn-cta.btn-primary.eModal-1 {
+    font-size: 12px;
+  }
+  .modal-body label {
+    display: none;
+  }
+
+  .modal-body form {
+    padding: 45px 0;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .modal-body form input {
+    height: 35px;
+    width: 100%;
+    padding: 0 0 0 3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1d1d1d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #37424f;
+  }
+
+  .modal-body form textarea {
+    height: 105px;
+    width: 100%;
+    padding: 5px 0 0 3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1d1d1d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #37424f;
+  }
+
+  .modal-body form button {
+    background-color: #3aa7aa;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -956,6 +997,59 @@ a.btn-cta {
   }
   .team-section .item-inner {
     min-height: 515px;
+  }
+  .modal-body label {
+    display: inline-block;
+  }
+
+  .modal-body form label[for="name"] {
+
+  }
+
+  .modal-body form label[for="email"] {
+
+  }
+
+  .modal-body form label[for="message"] {
+
+  }
+
+  .modal-body form input {
+    height: 35px;
+    width: 100%;
+    padding: 0 0 0 3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1d1d1d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #37424f;
+  }
+
+  .modal-body form textarea {
+    height: 105px;
+    width: 100%;
+    padding: 5px 0 0 3px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1d1d1d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #37424f;
+  }
+
+  .modal-body form button {
+    width: 165px;
+    margin-left: 71%;
+    background-color: #3aa7aa;
+    color: #fff;
+    text-align: center;
+    height: 35px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+
   }
 }
 /* Medium devices (desktops, 992px and up) */
